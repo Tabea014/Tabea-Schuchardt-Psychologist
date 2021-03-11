@@ -84,6 +84,7 @@ img {
   line-height: 1.2;
   font-family: var(--heading-font-family);
   text-align: center;
+  margin: 20px 0;
 }
 
 .content h2 {
