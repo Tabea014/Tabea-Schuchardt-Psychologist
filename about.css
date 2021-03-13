@@ -91,3 +91,13 @@ img {
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
 }
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 10px;
+  line-height: 14px;
+  font-family: var(--default-font-family) !important;
+}
