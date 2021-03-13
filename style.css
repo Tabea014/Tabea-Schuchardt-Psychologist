@@ -89,6 +89,11 @@ img {
   border: 1px solid var(--branding-color);
 }
 
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 1.2;
