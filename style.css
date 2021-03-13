@@ -94,6 +94,13 @@ img {
   background-color: var(--branding-color);
 }
 
+.btn-branding:hover {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 1.2;
