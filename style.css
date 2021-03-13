@@ -153,3 +153,31 @@ img {
     text-align: center;
   }
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--default-font-family);
+  margin-top: 30px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 60px 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
