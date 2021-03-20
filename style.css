@@ -18,6 +18,7 @@ h6 {
 
 h2 {
   font-size: 64px;
+  margin-top: -60px;
 }
 
 p {
@@ -85,13 +86,18 @@ img {
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 4px;
-  color: var(--branding-color);
+  color: white;
+  background-color: var(--branding-color);
   border: 1px solid var(--branding-color);
+  display: flex;
+  justify-content: center;
 }
 
 .btn-branding-outline:hover {
-  color: white;
-  background-color: var(--branding-color);
+  color: var(--branding-color);
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
 }
 
 .btn-branding:hover {
@@ -203,4 +209,25 @@ footer .social-links a:hover {
   color: var(--branding-color);
   font-size: 18px;
   text-decoration: none;
+}
+
+#HeadingSkills {
+  margin-top: -120px;
+}
+
+.Link-Coder {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+#HeadingPP {
+  margin-top: 60px;
+}
+
+#HeadingIndex {
+  margin-top: 40px;
+}
+
+#FavoriteAreas {
+  margin-top: -60px;
 }

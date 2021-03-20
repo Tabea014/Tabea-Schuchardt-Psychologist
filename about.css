@@ -137,3 +137,8 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+
+.Link-Coder {
+  text-decoration: none;
+  color: var(--branding-color);
+}
